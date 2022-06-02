@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import '../../public/fonts/styles.css';
 
 export const GlobalStyles = createGlobalStyle`
   * {
