@@ -10,12 +10,22 @@
   },
   "dependencies": {
     "next": "12.1.6",
+    "prop-types": "^15.8.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
-    "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6"
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "eslint": "^8.16.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-storybook": "^0.5.12",
+    "prettier": "^2.6.2"
   }
 }
