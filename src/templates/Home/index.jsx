@@ -10,8 +10,16 @@ import { Base } from '../Base';
 
 import config from '../../config';
 import { theme } from '../../styles/theme';
+import { useRouter } from 'next/router';
+import { Loading } from '../Loading';
 
 function Home({ data }) {
+  const router = useRouter();
+
+  if (router.isFallback) {
+    return <Loading />;
+  }
+
   const { menu, sections, footerHtml, slug, title } = data[0];
   const { links, text, link, srcImg } = menu;
 

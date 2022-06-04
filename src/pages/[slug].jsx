@@ -11,17 +11,17 @@ Page.propTypes = {
 };
 
 export const getStaticPaths = async () => {
-  const paths = (await loadPages()).map((page) => {
-    return {
-      params: {
-        slug: page.slug,
-      },
-    };
-  });
+  // const paths = (await loadPages()).map((page) => {
+  //   return {
+  //     params: {
+  //       slug: page.slug,
+  //     },
+  //   };
+  // });
 
   return {
-    paths,
-    fallback: false,
+    paths: [],
+    fallback: true,
   };
 };
 
@@ -44,5 +44,6 @@ export const getStaticProps = async (ctx) => {
     props: {
       data,
     },
+    revalidate: 30,
   };
 };
