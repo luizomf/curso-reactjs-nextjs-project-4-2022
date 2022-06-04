@@ -6,10 +6,6 @@ export default function Index({ data }) {
   return <Home data={data} />;
 }
 
-Index.propTypes = {
-  name: P.string,
-};
-
 export const getStaticProps = async () => {
   let data;
 
