@@ -9,7 +9,12 @@ export const loadPages = async (slug = '') => {
 
   const raw = await fetch(url);
   const json = await raw.json();
-  const { attributes } = json.data[0];
+
+  let attributes = {};
+  if (json?.data?.length) {
+    attributes = json.data[0].attributes;
+  }
+
   const pageData = mapData([attributes]);
   const data = pageData;
 
