@@ -7,15 +7,10 @@ import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
 
 import { Base } from '../Base';
-import { PageNotFound } from '../PageNotFound';
 
 import config from '../../config';
 
 function Home({ data }) {
-  if (!data || !data.length) {
-    return <PageNotFound />;
-  }
-
   const { menu, sections, footerHtml, slug, title } = data[0];
   const { links, text, link, srcImg } = menu;
 

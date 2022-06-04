@@ -1,7 +1,6 @@
 import Home from '../templates/Home';
 import P from 'prop-types';
-import config from '../config';
-import { mapData } from '../api/map-data';
+import { loadPages } from '../api/load-pages';
 
 export default function Index({ data }) {
   return <Home data={data} />;
@@ -12,11 +11,19 @@ Index.propTypes = {
 };
 
 export const getStaticProps = async () => {
-  const raw = await fetch(config.url + config.defaultSlug);
-  const json = await raw.json();
-  const { attributes } = json.data[0];
-  const pageData = mapData([attributes]);
-  const data = pageData;
+  let data;
+
+  try {
+    data = await loadPages('landing-page');
+  } catch {
+    data = null;
+  }
+
+  if (!data || !data.length) {
+    return {
+      notFound: true,
+    };
+  }
 
   return {
     props: {
