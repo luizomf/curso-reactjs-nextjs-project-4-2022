@@ -44,6 +44,7 @@
         "allowLiteral": true,
         "allowObject": true
       }
-    ]
+    ],
+    "@next/next/no-img-element": "off"
   }
 }

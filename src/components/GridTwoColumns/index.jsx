@@ -21,13 +21,7 @@ export const GridTwoColumns = ({
           <TextComponent>{text}</TextComponent>
         </Styled.TextContainer>
         <Styled.ImageContainer>
-          <Styled.Image
-            src={srcImg}
-            alt={title}
-            layout="responsive"
-            width="100%"
-            height="100%"
-          />
+          <Styled.Image src={srcImg} alt={title} />
         </Styled.ImageContainer>
       </Styled.Container>
     </SectionBackground>

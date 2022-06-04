@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 import { Container as TextComponent } from '../TextComponent/styles';
-import NextImage from 'next/image';
+// import NextImage from 'next/image';
 
 export const Container = styled.div`
   ${({ theme }) => css`
@@ -31,7 +31,7 @@ export const GridElement = styled.div`
   `}
 `;
 
-export const Image = styled(NextImage)`
+export const Image = styled.img`
   ${() => css`
     width: 100%;
     transition: all 300ms ease-in-out;
