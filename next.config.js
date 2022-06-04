@@ -6,7 +6,6 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
   },
   trailingSlash: true,
-  target: 'serverless',
 };
 
 module.exports = nextConfig;
