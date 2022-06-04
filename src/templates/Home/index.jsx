@@ -10,14 +10,12 @@ import { GridImage } from '../../components/GridImage';
 import { Base } from '../Base';
 import { PageNotFound } from '../PageNotFound';
 import { Loading } from '../Loading';
-import { useLocation } from 'react-router-dom';
 
 import config from '../../config';
 
 function Home() {
   const [data, setData] = useState([]);
   const isMounted = useRef(true);
-  const location = useLocation();
 
   useEffect(() => {
     const load = async () => {
@@ -44,7 +42,7 @@ function Home() {
     return () => {
       isMounted.current = false;
     };
-  }, [location]);
+  }, []);
 
   useEffect(() => {
     if (data === undefined) {

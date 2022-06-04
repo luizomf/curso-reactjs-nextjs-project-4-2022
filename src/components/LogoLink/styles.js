@@ -2,13 +2,10 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.a`
   ${() => css`
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+    display: block;
+    position: relative;
     color: inherit;
-
-    > img {
-      height: 3rem;
-    }
+    width: 180px;
+    height: 3rem;
   `}
 `;
