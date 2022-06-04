@@ -1,6 +1,15 @@
 import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
 import { LogoLink } from '.';
+import { vi } from 'vitest';
+
+vi.mock('next/image', () => {
+  return {
+    __esModule: true,
+    // eslint-disable-next-line
+    default: ({ src, alt }) => <img src={src} alt={alt} />,
+  };
+});
 
 describe('<LogoLink />', () => {
   it('should render text logo', () => {

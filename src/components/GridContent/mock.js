@@ -1,29 +1,15 @@
 export default {
   title: 'O título que eu quero',
-  html: `<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+  html: `
+  *Lorem ipsum* dolor **sit amet**, consectetur [link to google](https://www.google.com.br). Morbi mollis sollicitudin mauris non commodo. Vestibulum vitae nunc rutrum, lobortis purus aliquam, lacinia lectus. Donec accumsan, arcu vel sodales auctor, nisl nibh accumsan est, maximus porta velit lacus sit amet massa. Donec eget pharetra ex. Donec ut suscipit enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec posuere arcu eu turpis fermentum porta. Mauris feugiat sit amet dolor quis auctor.
 
-  <h2>Header Level 2</h2>
+  Nulla nec erat facilisis, tincidunt ligula a, aliquet felis. Sed varius a magna posuere fringilla. Curabitur fringilla vitae nisl eu rutrum. Nunc ac tempor nulla, ut elementum arcu. In malesuada nulla eget justo rutrum tempus. Etiam feugiat nunc nec tortor semper bibendum. Praesent dolor neque, imperdiet quis enim eu, lacinia volutpat lorem. Proin odio metus, sagittis nec nisl ut, commodo laoreet lorem. Aenean ligula metus, sollicitudin pharetra tempus sed, convallis ut lectus. Aliquam erat volutpat. Aenean nulla tortor, ullamcorper in libero non, aliquam dapibus nunc. Donec vitae feugiat nunc. Proin cursus fringilla efficitur.
 
-  <ol>
-     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-     <li>Aliquam tincidunt mauris eu risus.</li>
-  </ol>
+  Fusce dictum augue at congue fermentum. Curabitur facilisis, mi eget aliquam suscipit, risus orci ultrices dui, ut hendrerit nisl leo ac purus. In hac habitasse platea dictumst. Cras hendrerit, nisi sed tristique pretium, odio massa hendrerit dui, ac accumsan dolor sem ut felis. Nulla ultrices consequat enim non suscipit. Phasellus blandit lectus sit amet consectetur pulvinar. Suspendisse accumsan erat sem, non elementum ipsum blandit ac. Vivamus commodo sit amet mauris eu imperdiet. Ut tincidunt suscipit bibendum. Nunc euismod nulla justo, at mattis eros aliquet a. Sed vel nibh nunc.
 
-  <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+  Vivamus tempus dui eu lectus pharetra, non lobortis ante pretium. Duis eget lobortis urna, id aliquet eros. Praesent at nisl iaculis, facilisis ex sit amet, porttitor nisl. Nunc purus turpis, mattis eu volutpat nec, ultrices ornare nibh. Fusce eu viverra lacus. Quisque ut posuere sapien. Nam dui ex, lacinia euismod est et, posuere egestas erat. Nullam molestie et sapien vitae bibendum. Morbi imperdiet consectetur sem et vulputate. Sed condimentum eu leo eget tempus. Mauris ultrices ipsum eu augue finibus, at efficitur nulla aliquet. Pellentesque vel sem eget metus hendrerit ultricies sed id erat. Nullam feugiat ac nulla lacinia dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
-  <h3>Header Level 3</h3>
-
-  <ul>
-     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-     <li>Aliquam tincidunt mauris eu risus.</li>
-  </ul>
-
-  <pre><code>
-  #header h1 a {
-    display: block;
-    width: 300px;
-    height: 80px;
-  }
-  </code></pre>`,
+  Integer porta semper purus nec fermentum. Duis bibendum nec lorem ac consequat. Cras velit magna, porta quis tristique et, venenatis et odio. Cras vestibulum scelerisque convallis. Donec enim turpis, tempus id orci eget, ornare euismod leo. Nam ullamcorper, lacus non malesuada efficitur, orci quam consectetur est, non finibus felis tortor vel libero. Vivamus maximus posuere justo sed ultricies. Integer facilisis, enim dignissim ultricies malesuada, magna lectus tristique neque, sit amet dignissim libero ex ac est. Phasellus facilisis lobortis fermentum. Fusce justo nibh, euismod non felis in, tristique euismod eros. Vivamus eleifend, elit sit amet interdum molestie, ipsum ligula varius libero, in pharetra elit odio ut lorem.
+  `,
   background: false,
 };

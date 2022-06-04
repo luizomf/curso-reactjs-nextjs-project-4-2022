@@ -96,7 +96,6 @@ exports[`<GridTwoColum /> > should render two column grid 1`] = `
         >
           <img
             alt="Grid two columns"
-            class=""
             src="assets/images/javascript.svg"
           />
         </div>

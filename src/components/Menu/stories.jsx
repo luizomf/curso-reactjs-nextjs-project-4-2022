@@ -10,7 +10,7 @@ export default {
     logoData: {
       text: 'Logo',
       link: '#target',
-      srcImg: '',
+      srcImg: '/assets/images/javascript.svg',
     },
   },
 };

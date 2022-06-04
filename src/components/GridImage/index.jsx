@@ -21,7 +21,13 @@ export const GridImage = ({
         <Styled.Grid>
           {grid.map((el) => (
             <Styled.GridElement key={`${el.srcImg}${el.altText}`}>
-              <Styled.Image src={el.srcImg} alt={el.altText} />
+              <Styled.Image
+                src={el.srcImg}
+                alt={el.altText}
+                layout="responsive"
+                width="100%"
+                height="100%"
+              />
             </Styled.GridElement>
           ))}
         </Styled.Grid>

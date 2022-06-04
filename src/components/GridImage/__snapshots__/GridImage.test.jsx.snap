@@ -42,19 +42,10 @@ exports[`<GridImage /> > should render with background 1`] = `
 }
 
 .c7 {
+  position: relative;
   overflow: hidden;
-}
-
-.c8 {
   width: 100%;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c8:hover {
-  -webkit-transform: scale(1.2) rotate(10deg);
-  -ms-transform: scale(1.2) rotate(10deg);
-  transform: scale(1.2) rotate(10deg);
+  height: 100%;
 }
 
 @media (max-width:768px) {
@@ -100,7 +91,6 @@ exports[`<GridImage /> > should render with background 1`] = `
           >
             <img
               alt="Teste 1"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=1"
             />
           </div>
@@ -109,7 +99,6 @@ exports[`<GridImage /> > should render with background 1`] = `
           >
             <img
               alt="Teste 2"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=2"
             />
           </div>
@@ -118,7 +107,6 @@ exports[`<GridImage /> > should render with background 1`] = `
           >
             <img
               alt="Teste 3"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=3"
             />
           </div>
@@ -127,7 +115,6 @@ exports[`<GridImage /> > should render with background 1`] = `
           >
             <img
               alt="Teste 4"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=4"
             />
           </div>
@@ -136,7 +123,6 @@ exports[`<GridImage /> > should render with background 1`] = `
           >
             <img
               alt="Teste 5"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=5"
             />
           </div>
@@ -145,7 +131,6 @@ exports[`<GridImage /> > should render with background 1`] = `
           >
             <img
               alt="Teste 6"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=6"
             />
           </div>
@@ -198,19 +183,10 @@ exports[`<GridImage /> > should render without background 1`] = `
 }
 
 .c7 {
+  position: relative;
   overflow: hidden;
-}
-
-.c8 {
   width: 100%;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c8:hover {
-  -webkit-transform: scale(1.2) rotate(10deg);
-  -ms-transform: scale(1.2) rotate(10deg);
-  transform: scale(1.2) rotate(10deg);
+  height: 100%;
 }
 
 @media (max-width:768px) {
@@ -256,7 +232,6 @@ exports[`<GridImage /> > should render without background 1`] = `
           >
             <img
               alt="Teste 1"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=1"
             />
           </div>
@@ -265,7 +240,6 @@ exports[`<GridImage /> > should render without background 1`] = `
           >
             <img
               alt="Teste 2"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=2"
             />
           </div>
@@ -274,7 +248,6 @@ exports[`<GridImage /> > should render without background 1`] = `
           >
             <img
               alt="Teste 3"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=3"
             />
           </div>
@@ -283,7 +256,6 @@ exports[`<GridImage /> > should render without background 1`] = `
           >
             <img
               alt="Teste 4"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=4"
             />
           </div>
@@ -292,7 +264,6 @@ exports[`<GridImage /> > should render without background 1`] = `
           >
             <img
               alt="Teste 5"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=5"
             />
           </div>
@@ -301,7 +272,6 @@ exports[`<GridImage /> > should render without background 1`] = `
           >
             <img
               alt="Teste 6"
-              class="c8"
               src="https://source.unsplash.com/random/800x800?r=6"
             />
           </div>

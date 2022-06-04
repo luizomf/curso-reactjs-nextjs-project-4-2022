@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import { Title } from '../Heading/styles';
+import NextImage from 'next/image';
 
 export const Container = styled.div`
   ${({ theme }) => css`
@@ -31,6 +32,6 @@ export const ImageContainer = styled.div`
   ${() => css``}
 `;
 
-export const Image = styled.img`
+export const Image = styled(NextImage)`
   ${() => css``}
 `;
